@@ -1,0 +1,272 @@
+[
+  {
+    "id": 1,
+    "senderId": "1",
+    "receiverId": "2",
+    "text": "Hello"
+  },
+  {
+    "id": 2,
+    "senderId": "2",
+    "receiverId": "1",
+    "text": "Hi"
+  },
+  {
+    "id": 3,
+    "senderId": "1",
+    "receiverId": "2",
+    "text": "How are you?"
+  },
+  {
+    "id": 4,
+    "senderId": "2",
+    "receiverId": "1",
+    "text": "I'm good. What about you?"
+  },
+  {
+    "id": 5,
+    "senderId": "1",
+    "receiverId": "2",
+    "text": "I'm also good. How about you?"
+  },
+  {
+    "id": 6,
+    "senderId": "2",
+    "receiverId": "1",
+    "text": "I'm also good."
+  },
+  {
+    "id": 7,
+    "senderId": "1",
+    "receiverId": "2",
+    "text": "Good."
+  },
+  {
+    "id": 8,
+    "senderId": "2",
+    "receiverId": "1",
+    "text": "Great to hear!"
+  },
+  {
+    "id": 9,
+    "senderId": "1",
+    "receiverId": "2",
+    "text": "Anything exciting happening on your end?"
+  },
+  {
+    "id": 10,
+    "senderId": "2",
+    "receiverId": "1",
+    "text": "Not much, just the usual. How about you?"
+  },
+  {
+    "id": 11,
+    "senderId": "1",
+    "receiverId": "2",
+    "text": "Just working and catching up on some reading."
+  },
+  {
+    "id": 12,
+    "senderId": "2",
+    "receiverId": "1",
+    "text": "Nice! What are you reading?"
+  },
+  {
+    "id": 13,
+    "senderId": "1",
+    "receiverId": "2",
+    "text": "I'm reading a mystery novel. It's quite gripping."
+  },
+  {
+    "id": 14,
+    "senderId": "2",
+    "receiverId": "1",
+    "text": "I love mystery novels! Any recommendations?"
+  },
+  {
+    "id": 15,
+    "senderId": "1",
+    "receiverId": "2",
+    "text": "Sure, I'd recommend 'The Girl with the Dragon Tattoo.'"
+  },
+  {
+    "id": 16,
+    "senderId": "2",
+    "receiverId": "1",
+    "text": "Thanks! I'll check it out."
+  },
+  {
+    "id": 17,
+    "senderId": "1",
+    "receiverId": "2",
+    "text": "Let me know how you find it!"
+  },
+  {
+    "id": 18,
+    "senderId": "2",
+    "receiverId": "1",
+    "text": "Definitely will. Anything else new with you?"
+  },
+  {
+    "id": 19,
+    "senderId": "1",
+    "receiverId": "2",
+    "text": "Not really, just the usual routine."
+  },
+  {
+    "id": 20,
+    "senderId": "2",
+    "receiverId": "1",
+    "text": "Sometimes routine is good. Keeps things stable."
+  },
+  {
+    "id": 21,
+    "senderId": "1",
+    "receiverId": "2",
+    "text": "True. How's work on your end?"
+  },
+  {
+    "id": 22,
+    "senderId": "2",
+    "receiverId": "1",
+    "text": "Busy as always, but I enjoy the challenges."
+  },
+  {
+    "id": 23,
+    "senderId": "1",
+    "receiverId": "2",
+    "text": "That's great to hear! Keep rocking!"
+  },
+  {
+    "id": 24,
+    "senderId": "2",
+    "receiverId": "1",
+    "text": "Thanks! You too!"
+  },
+  {
+    "id": 25,
+    "senderId": "1",
+    "receiverId": "2",
+    "text": "Let's catch up soon. Have a good day!"
+  },
+  {
+    "id": 26,
+    "senderId": "2",
+    "receiverId": "1",
+    "text": "Absolutely! You too!"
+  },
+  {
+    "id": 27,
+    "senderId": "1",
+    "receiverId": "2",
+    "text": "Hey! How's your day going?"
+  },
+  {
+    "id": 28,
+    "senderId": "2",
+    "receiverId": "1",
+    "text": "Hi there! It's been a good day so far. How about yours?"
+  },
+  {
+    "id": 29,
+    "senderId": "1",
+    "receiverId": "2",
+    "text": "Not bad, just a bit hectic. Workload, you know?"
+  },
+  {
+    "id": 30,
+    "senderId": "2",
+    "receiverId": "1",
+    "text": "Totally get it. Sometimes it feels like there aren't enough hours in the day."
+  },
+  {
+    "id": 31,
+    "senderId": "1",
+    "receiverId": "2",
+    "text": "Exactly! But we keep pushing through. Any exciting plans for the weekend?"
+  },
+  {
+    "id": 32,
+    "senderId": "2",
+    "receiverId": "1",
+    "text": "Not really. Probably just catching up on some movies and relaxing. How about you?"
+  },
+  {
+    "id": 33,
+    "senderId": "1",
+    "receiverId": "2",
+    "text": "Same here! A little downtime is always nice. Do you have any favorite genres?"
+  },
+  {
+    "id": 34,
+    "senderId": "2",
+    "receiverId": "1",
+    "text": "I'm into sci-fi and action. Anything with a good plot and twists!"
+  },
+  {
+    "id": 35,
+    "senderId": "1",
+    "receiverId": "2",
+    "text": "Nice choices! Have you watched any good ones lately?"
+  },
+  {
+    "id": 36,
+    "senderId": "2",
+    "receiverId": "1",
+    "text": "Recently watched a mind-bending sci-fi film. Blew my mind!"
+  },
+  {
+    "id": 37,
+    "senderId": "1",
+    "receiverId": "2",
+    "text": "Sounds intriguing! Mind sharing the title? I might add it to my watchlist."
+  },
+  {
+    "id": 38,
+    "senderId": "2",
+    "receiverId": "1",
+    "text": "It's called 'Inception.' Trust me; you won't be disappointed."
+  },
+  {
+    "id": 39,
+    "senderId": "1",
+    "receiverId": "2",
+    "text": "Ah, 'Inception' is a classic! Christopher Nolan's brilliance. I've seen it, and it's mind-blowing!"
+  },
+  {
+    "id": 40,
+    "senderId": "2",
+    "receiverId": "1",
+    "text": "Great minds think alike! Have any favorites you'd recommend?"
+  },
+  {
+    "id": 41,
+    "senderId": "1",
+    "receiverId": "2",
+    "text": "Absolutely! 'Interstellar' and 'The Matrix' are must-watches if you haven't seen them yet."
+  },
+  {
+    "id": 42,
+    "senderId": "2",
+    "receiverId": "1",
+    "text": "Thanks for the recommendations! I'll add them to my weekend movie marathon."
+  },
+  {
+    "id": 43,
+    "senderId": "1",
+    "receiverId": "2",
+    "text": "Enjoy the movies and have a fantastic weekend!"
+  },
+  {
+    "id": 44,
+    "senderId": "2",
+    "receiverId": "1",
+    "text": "You too! Let's catch up again soon."
+  },
+  {
+    "id": 45,
+    "senderId": "1",
+    "receiverId": "2",
+    "text": "Absolutely! Until next time, take care!"
+  }
+]
