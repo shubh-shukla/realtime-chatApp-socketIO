@@ -1,5 +1,6 @@
 
 # Realtime Chat Application
+- ## [Model](https://app.eraser.io/workspace/mbpSaSaktBijbAIh1U5A?origin=share)
 
 This Realtime Chat App is a dynamic web application developed using the MERN (MongoDB, Express.js, React.js, Node.js) stack. It harnesses the power of Socket.IO for seamless and real-time communication, enabling users to engage in instant messaging with ease.
 
