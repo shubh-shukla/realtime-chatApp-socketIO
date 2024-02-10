@@ -34,6 +34,7 @@ const userSchema = new Schema(
     avatar: {
       type: String,
       required: true,
+      default: "https://icon-library.com/icon/anonymous-avatar-icon-25.html",
     },
     // lastSeen: {
     //   type: Date,
