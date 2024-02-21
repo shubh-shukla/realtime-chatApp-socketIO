@@ -3,7 +3,7 @@ import { ApiError } from "../utils/APIError.js";
 import { User } from "../models/user.model.js";
 import { asyncHandler } from "../utils/asyncHandler.js";
 
-export const verifyJWT = asyncHandler(async (req, _, next) => {
+export const verifyJWT = asyncHandler(async (req, res, next) => {
   try {
     const token =
       req.cookies?.accessToken || req.headers.authorization?.split(" ")[1];
@@ -23,6 +23,7 @@ export const verifyJWT = asyncHandler(async (req, _, next) => {
     req.user = user;
     next();
   } catch (error) {
-    throw new ApiError(401, error?.message || "Invalid access token");
+    // throw new ApiError(401, error?.message || "Invalid access token");
+    return res.status(401).json({ success: false, message: error?.message || "Invalid access token" });
   }
 });
