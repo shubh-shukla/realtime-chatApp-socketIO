@@ -15,7 +15,7 @@ const FetchChats = asyncHandler(async (req, res, next) => {
   return res.status(200).json(new ApiResponse(200, chats));
 })
 
-const createGroupChat = asyncHandler(async (req, res, next) => {
+const createGroup = asyncHandler(async (req, res, next) => {
   const { members, name } = req.body;
 
   if (!members) {
@@ -42,15 +42,14 @@ const createGroupChat = asyncHandler(async (req, res, next) => {
     isGroupChat : true,
   });
 
-  return chat
-  // return res.status(201).json(new ApiResponse(201, chat));
+  return res.status(201).json(new ApiResponse(201, chat));
 });
 
 const accessGroupChat = asyncHandler(async (req, res, next) => {
   const { id } = req.body;
-  let chat = await Chat.findById(id);
+  const chat = await Chat.findById(id);
   if (!chat) {
-    chat = createGroupChat(req, res, next);
+    return next(new ApiError(404, "Group not found"));
   }
   return res.status(200).json(new ApiResponse(200, chat));
 })
@@ -78,4 +77,4 @@ const accessChat = asyncHandler(async (req, res, next) => {
   return res.status(200).json(new ApiResponse(200, chat));
 });
 
-export { createGroupChat, accessChat, FetchChats, accessGroupChat };
+export { createGroup, accessChat, FetchChats, accessGroupChat };
