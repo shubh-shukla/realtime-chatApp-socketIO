@@ -6,7 +6,7 @@ import { Chat } from "../models/chat.model.js";
 import { User } from "../models/user.model.js";
 
 const FetchChats = asyncHandler(async (req, res, next) => {
-  const { id } = req.params;
+  const { id } = req.user;
   const chats = await Chat.find({
     members: {
       $in: [id],
@@ -26,7 +26,7 @@ const createGroup = asyncHandler(async (req, res, next) => {
     return next(new ApiError(400, "Name is required for group chat"));
   }
 
-  const validMembers = await Chat.find({
+  const validMembers = await User.find({
     _id: {
       $in: members,
     },
