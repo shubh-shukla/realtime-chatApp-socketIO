@@ -33,8 +33,7 @@ const userSchema = new Schema(
     },
     avatar: {
       type: String,
-      // required: true,
-      default: "https://icon-library.com/icon/anonymous-avatar-icon-25.html",
+      default: "https://res.cloudinary.com/shubham-node/image/upload/v1711286847/defaultAvatar_eqaw7t.jpg",
     },
     // lastSeen: {
     //   type: Date,
