@@ -16,6 +16,10 @@ const chatSchema = new Schema(
         ref: "User",
       },
     ],
+    avatar: {
+      type: String,
+      default: "https://res.cloudinary.com/shubham-node/image/upload/v1711286847/defaultAvatar_eqaw7t.jpg",
+    },
     messages: [
       {
         type: Schema.Types.ObjectId,
