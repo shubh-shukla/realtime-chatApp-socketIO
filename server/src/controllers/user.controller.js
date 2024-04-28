@@ -43,14 +43,13 @@ const registerUser = asyncHandler(async (req, res, next) => {
 
   const avatarLocalPath = req.file?.path;
 
-  if (!avatarLocalPath) {
-    return next(new ApiError(400, "Avatar is required"));
-  }
-
-  const avatar = await uploadToCloudinary(avatarLocalPath);
-
-  if (!avatar) {
-    return next(new ApiError(400, "Avatar upload failed"));
+  let addOns = []
+  if (avatarLocalPath) {
+    avatar = await uploadToCloudinary(avatarLocalPath);
+    if (!avatar) {
+      return next(new ApiError(400, "Avatar upload failed"));
+    }
+    addOns.push({ avatar: avatar.url });
   }
 
   const userInfo = {
@@ -58,7 +57,7 @@ const registerUser = asyncHandler(async (req, res, next) => {
     email,
     username: username.toLowerCase(),
     password,
-    avatar: avatar.url,
+    ...addOns
   };
 
   if (req.body.bio) {
@@ -78,7 +77,7 @@ const registerUser = asyncHandler(async (req, res, next) => {
 
 const loginUser = asyncHandler(async (req, res, next) => {
   const { email, username, password } = req.body;
-
+  console.log(email, username, password);
   if (!username && !email) {
     return next(new ApiError(400, "Username or email is required"));
   }
